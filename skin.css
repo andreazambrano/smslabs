@@ -20,7 +20,7 @@
 
 body, p, a, .btn-text, .input-text, .input-select, .input-textarea, .cnt-box-blog-side .btn-text:not(:hover):after, .cnt-box-blog-top .btn-text:not(:hover):after, .icon-list span, .icon-list span a,
 .social-links a i, a, .glide__arrow, .search-bar input[type=submit], .menu-cnt > ul > li a, .media-box.media-box-down .caption p {
-    color: rgb(228, 237, 243);
+    color: rgb(64, 77, 96);
 }
 
 body > nav, footer, .progress-bar > div, .progress-bar > div span, .shop-menu-cnt .shop-menu, i.scroll-top-btn, .tab-nav li a:before, .tab-nav li a:after, .btn:not(.btn-border):hover,
@@ -93,7 +93,7 @@ body > header h2, .breadcrumb li:last-child a, .cnt-box-side .extra-field, .cnt-
 
 footer.light a, .cnt-box.light .extra-field, nav.light .menu-cnt > ul > li:hover > a, .section-home-slider [data-to], .section-home-slider h2, .light .title p, body > header.light h2,
 .boxed-area.light .text-list-bold li b, .text-color-2 {
-        color: rgb(228, 237, 243) !important;
+    color: #298b90 !important;
 }
 
 .cnt-box-blog-side .blog-date span:last-child, .progress-bar > div > div, footer .icon-list li:before, .shop-menu .cart-buttons a:hover, .cnt-box-blog-top .blog-date span:last-child, .btn-video:empty,
