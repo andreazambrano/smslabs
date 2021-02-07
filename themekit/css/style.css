@@ -4350,6 +4350,43 @@ i.scroll-top-btn:before {
     text-transform: none;
 }
 
+i.scroll-top-btn1:before {
+    font-family: "Icons";
+    font-style: normal;
+    font-weight: normal;
+    transform: rotate(90deg);
+    content: "\68";
+    position: absolute;
+    left: 0;
+    right: 0.5px;
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: none;
+}
+i.scroll-top-btn1 {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+    display: none;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.17);
+    border-radius: 50%;
+    background: #FFF;
+    text-align: center;
+    cursor: pointer;
+    z-index: 995;
+    transition: all .5s;
+}
+i.scroll-top-btn1:hover {
+    margin-bottom: 5px;
+}
+
+i.scroll-top-btn.show1 {
+    display: block;
+}
+
+
 /*
 
 # ANIMATIONS
@@ -5571,4 +5608,26 @@ Inverted responsive classes
     .visible-xs {
         display: none;
     }
+}
+
+.whatsapp {
+  position:fixed;
+  width:45px;
+  height:45px;
+  bottom:20px;
+  left:20px;
+  background-color:#25d366;
+  color:#fff;
+  border-radius:50%;
+  text-align:center;
+  font-size:45px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:15px;
+}
+
+.fa-whatsapp:before {
+    content: "\f232"
 }
