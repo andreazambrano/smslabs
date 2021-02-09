@@ -1354,7 +1354,3 @@ jQuery.fn.extend({
         return false;
     }
 });
-
-.fa-whatsapp:before {
-    content: "\f232"
-}
