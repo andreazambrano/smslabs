@@ -622,8 +622,8 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 45px;
-    line-height: 65px;
+    font-size: 40px;
+    line-height: 50px;
 }
 
 h1 + p, h2 + p, h3 + p, h4 + p, h2 + h4, h1 + h4, h2 + ul.icon-list, h3 + ul.icon-list, p + h3, p + .btn, p + h4, h4 + .btn, h4 + .btn-text, h4 + input, h4 + select, h4 + textarea, p + ul.icon-list,
@@ -2651,8 +2651,8 @@ Extra small devices (portrait phones, less than 576px)
     }
 
     h1 {
-        font-size: 33px;
-        line-height: 45px;
+        font-size: 25px;
+        line-height: 30px;
     }
 
     body > header h1, body > .header-base h1 {
