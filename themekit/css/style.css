@@ -2223,6 +2223,19 @@ BUTTONS - COMPONENT
     transition: all .5s;
 }
 
+.btn1 {
+    color: #298b90;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    transition: all .5s;
+}
 .btn-xs {
     padding: 7px 20px;
     font-size: 13px;
