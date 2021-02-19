@@ -363,6 +363,14 @@ LIGHT COLOR
     content: "\73";
 }
 
+.icon-google:before {
+    content: "\74";
+}
+
+.icon-mail:before {
+    content: "\75";
+}
+
 /*
 
 # SECTIONS
@@ -2762,7 +2770,7 @@ ICON LINK - COMPONENT
     padding: 0;
     display: block;
     position: absolute;
-    font-size: 18px;
+    font-size: 25px;
     transition: all .5s;
 }
 

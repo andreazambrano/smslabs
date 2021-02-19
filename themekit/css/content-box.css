@@ -59,7 +59,7 @@ Table of contents
 }
 
 .cnt-box.boxed {
-    border-radius: 15px;
+    border-radius: 3px;
 }
 
 .cnt-box.boxed .caption {
@@ -75,7 +75,7 @@ Table of contents
 }
 
 .cnt-box.align-left .caption {
-    text-align: left;
+    text-align: center;
 }
 
 .extra-field {
@@ -188,7 +188,7 @@ Table of contents
 .cnt-box-top-icon > i {
     font-size: 50px;
     line-height: 50px;
-    text-align: left;
+    text-align: center;
     margin: 0 0 30px 1px;
     display: block;
 }
@@ -531,7 +531,7 @@ Table of contents
 }
 
 .cnt-box-team.align-left .icon-links {
-    justify-content: flex-start;
+    justify-content: center;
 }
 /*
 

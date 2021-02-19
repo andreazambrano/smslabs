@@ -88,7 +88,7 @@ body > header h2, .breadcrumb li:last-child a, .cnt-box-side .extra-field, .cnt-
 .album-title > a:before, .accordion-list > li.active > a, .media-box.media-box-reveal .caption h3, .cnt-box-top .extra-field, .list-nav a:first-child:before, .list-nav a:last-child:before,
 .cnt-box-testimonials-bubble .thumb-bar span:last-child, .cnt-box-side-icon > i, .countdown-vertical [data-time] > div > span:first-child, .countdown-horizontal [data-time] > div > span:first-child,
 .social-feed a {
-    color: #a4c9df;
+    color: #298b90;
 }
 
 footer.light a, .cnt-box.light .extra-field, nav.light .menu-cnt > ul > li:hover > a, .section-home-slider [data-to], .section-home-slider h2, .light .title p, body > header.light h2,
@@ -1924,11 +1924,13 @@ button.btn-xs, button.btn-sm {
 
 .cnt-box .caption p {
     font-size: 14px;
+    text-align: center;
 }
 
 .cnt-box .caption h2 {
     font-weight: 700;
     line-height: 35px;
+    text-align: center;
 }
 
 .cnt-box.boxed:hover, .media-box-full:hover {
