@@ -609,7 +609,7 @@ main > section.section-base.section-home-slider {
 body, textarea {
     font-family: 'Montserrat', sans-serif;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -1764,7 +1764,8 @@ footer .col-lg-5:last-child {
 }
 
 .icon-box-left .caption {
-    padding-left: 20px;
+    padding-left: 25px;
+    text-align: left;
 }
 
 .icon-box-left {

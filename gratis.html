@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -79,58 +79,54 @@
         </div>
     </nav>
     <main>
-        <section class="section-map section-map-right">
-            <div class="google-map" data-marker="media/marker.png" data-coords="-33.4686064,-70.6375961,11z" data-zoom="12" data-marker-pos="left"></div>
-            <div class="container">
-                <div class="title">
-                    <h2> Informacion de contacto</h2>
-                   
-                </div>
-                <ul class="text-list text-list-line">
-                   
-                <li><b>Dirección:</b><p>Santiago de Chile</p></li>
-                 <li><b>Web:</b><p>smslabs.cl</p></li>
-                <li><b>Mail de contacto: </b><p>contacto@smslabs.cl</p></li>
-                <li><b>Teléfono de contacto:</b><p>(+569) 46821757</p></li>
-                <li><b>Horario de Atención:</b><p> Lunes a Sábado <br> 08:00 a 19:00 hrs </p></li> 
-                </ul>
-                <hr class="space-sm" />
-                <div class="icon-links icon-social icon-links-grid social-colors">
-                    <a class="facebook"><i class="icon-facebook"></i></a>
-                    <a class="linkedin"><i class="icon-linkedin"></i></a>
-                    
-                </div>
-            </div>
-        </section>  
-         <section class="section-base">
+        
+        <section class="section-base">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7">
-                        <h2>CONTÁCTANOS.</h2>
-                        <hr class="space-sm" />
-                        <form action="themekit/scripts/contact-form/contact-form.php" class="form-box form-ajax" method="post" data-email="example@domain.com">
+                    <div class="col-lg-12">
+                        <div class="title" align="center">
+                            <h3>Estás a sólo un paso de obtener una prueba grátis con SMSLabs, por favor completa el siguiente formulario: </h3>
+                            <hr class="space visible-lg" />
+                            <h2>¡Muchas gracias por contactarnos! </h2>
+                            <hr class="space visible-lg" />
+                        </div>
+                        <hr class="space visible-lg" />
+                        <div class="col-lg-12">
+                        <form action="#" class="form-box form-ajax" method="post" data-email="">
                             <div class="row">
+                               
                                 <div class="col-lg-6">
-                                    <p>Nombre</p>
+                                    <p>Nombre Completo  </p>
+                                    <input id="name" name="name" placeholder="" type="text" class="input-text" required>
+                                </div>
+                                 <div class="col-lg-6">
+                                    <p>¿De qué empresa nos escribes?</p>
                                     <input id="name" name="name" placeholder="" type="text" class="input-text" required>
                                 </div>
                                 <div class="col-lg-6">
-                                    <p>Mail</p>
+                                    <p>Teléfono Móvil</p>
+                                    <input id="phone" name="phone" placeholder="" type="phone" class="input-text" required>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>Correo Electrónico</p>
                                     <input id="email" name="email" placeholder="" type="email" class="input-text" required>
                                 </div>
                             </div>
-                            <p>Mensaje</p>
+                            <p>Escribenos tu consulta   </p>
                             <textarea id="messagge" name="messagge" class="input-textarea" placeholder="" required></textarea>
-                            <button class="btn btn-sm btn-circle" type="submit">Enviar mensaje</button>
-                            <div class="success-box">
-                                <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                            <div align="center">
+                            <button class="btn btn-xs btn-circle" type="submit"><a href="send.html" style="color: #fff;" class="btn-text active"><span>  Enviar mensaje</span></a>   </button>
+                            </div>
+                           <!--  <div class="success-box">
+                                <div class="alert alert-success">Felicidades. su mensaje ha sido enviado exitosamente</div>
                             </div>
                             <div class="error-box">
-                                <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
-                            </div>
+                                <div class="alert alert-warning">Error, por favor verifique. Su mensaje no ha sido enviado</div>
+                            </div> -->
                         </form>
+                        </div>
                     </div>
-                    <div class="col-lg-5">
+                    <!-- <div class="col-lg-5">
                         <hr class="space visible-md" />
                         <div class="title">
                             <h2>En que horario laboramos?</h2>
@@ -151,7 +147,7 @@
                                 
                             </tbody>
                         </table>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
