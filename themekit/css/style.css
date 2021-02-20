@@ -4991,6 +4991,8 @@ Medium devices (tablets, less than 992px)
 
     body > nav > .container, body > .menu-mini > .container {
         max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .menu-btn {
