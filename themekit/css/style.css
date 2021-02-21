@@ -2517,7 +2517,7 @@ TEXT LIST - COMPONENT
 }
 
 .text-list-bold li p {
-    margin: 0 0 0 15px;
+    margin: 0 0 0 8px;
 }
 
 .text-list-line li b {
